@@ -1,0 +1,275 @@
+            * {
+                padding: 0;
+                margin: 0;
+            }
+    
+            body {
+                background-color: rgb(0 8 255 / 14%);
+            }
+    
+            img {
+                width: 100%;
+                display: block;
+            }
+    
+            ul {
+                list-style: none;
+            }
+    
+            .hidden {
+                display: none;
+            }
+    
+            .active {
+                color: rgb(253, 15, 55) !important;
+            }
+    
+            .time {
+                font-size: 12px;
+                font-weight: 600;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: #fff;
+            }
+    
+            .wrapper {
+                position: relative;
+                width: max-content;
+                height: 100vh;
+                overflow: hidden;
+                margin: 0 auto 0 auto;
+                background-color: #fff;
+                display: flex;
+                scroll-behavior: smooth;
+
+    
+            }
+    
+            .header {
+                box-shadow: 0 0 3px 1px rgb(37,14,45);
+                background-color: rgb(26,5,36);
+                border-radius: 5px 5px 0 0;
+            }
+    
+            .title {
+                text-align: center;
+                color: #fff;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin-bottom: 10px;
+            }
+    
+            .header {
+                text-align: center;
+                position: sticky;
+                top: 0;
+    
+            }
+    
+            .music-playing .img {
+                width: 300px;
+                border-radius: 50%;
+                overflow: hidden;
+                animation: rotate 10s infinite linear;
+                margin: 0 auto;
+            }
+    
+            .btn {
+                background: none;
+                border: none;
+                outline: none;
+                color: #fff;
+                font-size: 20px;
+                cursor: pointer;
+                margin: 10px;
+            }
+    
+            .btn:not(.btn-toggle-play):hover {
+                color: rgb(253, 15, 55);
+            }
+    
+            .btn-toggle-play {
+                background-color: rgb(253, 15, 55);
+                color: #fff;
+                border-radius: 50%;
+                height: 45px;
+                width: 45px;
+                text-align: center;
+            }
+    
+            .btn-add {
+                color: #333;
+            }
+    
+            .bars-timing {
+                display: flex;
+                width: 80%;
+                margin: 0 auto;
+                padding-bottom: 10px;
+    
+            }
+    
+            .control-bars {
+                width: 100%;
+                margin: 8px 3px;
+                background-color: rgb(52 68 178 / 50%);
+                cursor: pointer;
+            }
+    
+            .control-bars .range {
+                height: 3px;
+                background-color: #fff;
+                border-radius: 2px;
+            }
+    
+            /* LIST SONG */
+            .list {
+                overflow-x: hidden;
+                overflow-y: scroll;
+            }
+    
+            /* height: 273px; */
+            .list::-webkit-scrollbar {
+                width: 5px;
+            }
+    
+            /* Track */
+            .list::-webkit-scrollbar-track {
+                background: rgb(95 0 255 / 50%);
+            }
+    
+            /* Handle */
+            .list::-webkit-scrollbar-thumb {
+                background: #555;
+                border-radius: 2px;
+            }
+    
+            /* Handle on hover */
+            .list::-webkit-scrollbar-thumb:hover {
+                background: rgb(253, 15, 55);
+            }
+    
+            .song-item {
+                display: flex;
+                justify-content: space-between;
+                padding: 10px 15px;
+                box-shadow: 0 0 3px 0px #333;
+                border-radius: 3px;
+                margin: 10px 0;
+                cursor: pointer;
+            }
+    
+            .song-item:hover {
+                background-color: rgb(0 0 0 / 10%);
+            }
+    
+            .song-img {
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                overflow: hidden;
+            }
+    
+            .song-info {
+                flex-basis: 70%;
+                padding: 5px 0;
+            }
+    
+            .song-name {
+                font-size: 18px;
+                font-weight: 600;
+            }
+    
+            .song-singer {
+                color: #333;
+                font-size: 15px;
+            }
+    
+
+
+            /* .fullScreen {
+                width: 100vw;
+                height: 100vh;
+                filter: blur(6px) brightness(0.5);          
+
+            } */
+
+            .side-right, .side-left{
+                width: 400px;
+            }
+
+            /* KIND OF MUSIC( SIDE RIGHT)*/
+
+            .slider{
+                position: absolute;
+                display: flex;
+                /* transition-duration: 250ms; */
+            }
+
+            .side-right{
+                background-color: #000;
+            }
+            .category{
+                display: flex;
+                justify-content: space-between;
+                padding: 5px;
+                /* height: 100vh; */
+                flex-wrap: wrap;
+            }
+            .kind_of{
+                width: 49%;
+                /* background-color: #000; */
+                position: relative;
+                cursor: pointer;
+                margin-bottom: 15px;
+            }
+            .kind_of-name{
+                color: #fff;
+                text-align: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 100;
+            }
+
+            .kind_of:hover::before{
+                content: '';
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.2);
+            }
+
+
+            /* BTN CONTROL */
+
+            .nav-control{
+                position: fixed;
+                z-index: 100;
+                bottom: 0;
+                text-align: center;
+                width: inherit;
+                background-color: rgb(26,5,36);
+            }
+
+            .btn-control{
+                width: 45%;
+                padding: 5px;
+                border: none;
+                background: none;
+                font-size: 15px;
+                color: #fff;
+                margin: 5px;
+                border-bottom: transparent 2px solid;
+            }
+
+            .btn-control.active{
+                border-bottom: orchid 2px solid;
+            }
+
+            @keyframes rotate {
+                from {
+                    transform: rotate(0deg);
+                }
+    
+                to {
+                    transform: rotate(360deg);
+                }
+            }
