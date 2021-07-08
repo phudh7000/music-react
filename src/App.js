@@ -49,7 +49,10 @@ class App extends Component {
 
     render() {
         return (
-            this.renderView()
+            // this.renderView()
+            <div>
+                Heello
+            </div>
         )
     }
 }
