@@ -1,9 +1,10 @@
 import * as types from '../constant'
 import {currentList} from './songList'
+import a from './songs/Camila Cabello Havana Lyrics ft Young Thug.mp3'
 var initialStore = {
     name: 'Hanava',
     singer: 'Camila Cabello, Young Thug',
-    path: './songs/Camila Cabello Havana Lyrics ft Young Thug.mp3',
+    path: a,
     image: 'https://upload.wikimedia.org/wikipedia/vi/9/98/Havana_%28featuring_Young_Thug%29_%28Official_Single_Cover%29_by_Camila_Cabello.png'
 }
 

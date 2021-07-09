@@ -13,7 +13,7 @@ import store from './reducers'
 class App extends Component {
 
     renderView(){
-        if(isMobile)return(
+        if(isMobile||window.innerWidth<=600)return(
             <Provider store={store}>
                 
                     <div className="wrapper" style={{ width: "400px", overflowX: "scroll" }}>

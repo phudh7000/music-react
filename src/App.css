@@ -33,7 +33,7 @@
     
             .wrapper {
                 position: relative;
-                width: max-content;
+                max-width: 800px;
                 height: 100vh;
                 overflow: hidden;
                 margin: 0 auto 0 auto;
@@ -195,6 +195,9 @@
             .side-right, .side-left{
                 width: 400px;
             }
+            /* .side-left{
+                width: 400px;
+            } */
 
             /* KIND OF MUSIC( SIDE RIGHT)*/
 
