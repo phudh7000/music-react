@@ -1,20 +1,43 @@
 {
   "files": {
-    "main.css": "/music-react/static/css/main.4d4ff83f.chunk.css",
-    "main.js": "/music-react/static/js/main.dffdf2a3.chunk.js",
-    "main.js.map": "/music-react/static/js/main.dffdf2a3.chunk.js.map",
+    "main.css": "/music-react/static/css/main.8eb8a83d.chunk.css",
+    "main.js": "/music-react/static/js/main.59afe7d6.chunk.js",
+    "main.js.map": "/music-react/static/js/main.59afe7d6.chunk.js.map",
     "runtime-main.js": "/music-react/static/js/runtime-main.3741ef4c.js",
     "runtime-main.js.map": "/music-react/static/js/runtime-main.3741ef4c.js.map",
-    "static/js/2.370c101c.chunk.js": "/music-react/static/js/2.370c101c.chunk.js",
-    "static/js/2.370c101c.chunk.js.map": "/music-react/static/js/2.370c101c.chunk.js.map",
+    "static/js/2.05c0d0af.chunk.js": "/music-react/static/js/2.05c0d0af.chunk.js",
+    "static/js/2.05c0d0af.chunk.js.map": "/music-react/static/js/2.05c0d0af.chunk.js.map",
     "index.html": "/music-react/index.html",
-    "static/css/main.4d4ff83f.chunk.css.map": "/music-react/static/css/main.4d4ff83f.chunk.css.map",
-    "static/js/2.370c101c.chunk.js.LICENSE.txt": "/music-react/static/js/2.370c101c.chunk.js.LICENSE.txt"
+    "static/css/main.8eb8a83d.chunk.css.map": "/music-react/static/css/main.8eb8a83d.chunk.css.map",
+    "static/js/2.05c0d0af.chunk.js.LICENSE.txt": "/music-react/static/js/2.05c0d0af.chunk.js.LICENSE.txt",
+    "static/media/All Falls Down.mp3": "/music-react/static/media/All Falls Down.21ddde37.mp3",
+    "static/media/Britney Spears  I Wanna Go Lyrics.mp3": "/music-react/static/media/Britney Spears  I Wanna Go Lyrics.ca72e036.mp3",
+    "static/media/Camila Cabello Havana Lyrics ft Young Thug.mp3": "/music-react/static/media/Camila Cabello Havana Lyrics ft Young Thug.2db3486b.mp3",
+    "static/media/Candyland-Tobu.mp3": "/music-react/static/media/Candyland-Tobu.12ef8f26.mp3",
+    "static/media/Dap-Vo-Cay-Dan-Quang-Le.mp3": "/music-react/static/media/Dap-Vo-Cay-Dan-Quang-Le.546ba6c1.mp3",
+    "static/media/Dem-Buon-Tinh-Le-Truong-Vu.mp3": "/music-react/static/media/Dem-Buon-Tinh-Le-Truong-Vu.6fa9ae5d.mp3",
+    "static/media/Heroes-Tonight-Janji-Johnning.mp3": "/music-react/static/media/Heroes-Tonight-Janji-Johnning.70387cf8.mp3",
+    "static/media/Martin Garrix  David Guetta  So Far Away Official Video feat Jamie Scott  Romy Dya.mp3": "/music-react/static/media/Martin Garrix  David Guetta  So Far Away Official Video feat Jamie Scott  Romy Dya.7e93ec88.mp3",
+    "static/media/Nguoi-Ngoai-Pho-Hoai-Lam.mp3": "/music-react/static/media/Nguoi-Ngoai-Pho-Hoai-Lam.867cd62e.mp3",
+    "static/media/One Direction  What Makes You Beautiful Lyrics.mp3": "/music-react/static/media/One Direction  What Makes You Beautiful Lyrics.3ac8f504.mp3",
+    "static/media/Pitbull  Give Me Everything ft NeYo Afrojack Nayer  TraduçãoLegendado.mp3": "/music-react/static/media/Pitbull  Give Me Everything ft NeYo Afrojack Nayer  TraduçãoLegendado.060bc95f.mp3",
+    "static/media/Play-K-391-Alan-Walker-Martin-Tungev.mp3": "/music-react/static/media/Play-K-391-Alan-Walker-Martin-Tungev.893c3a0a.mp3",
+    "static/media/Reality-Lost-Frequencies-Janieck-Devy.mp3": "/music-react/static/media/Reality-Lost-Frequencies-Janieck-Devy.dcfe4f0f.mp3",
+    "static/media/Sia  Cheap Thrills Lyrics.mp3": "/music-react/static/media/Sia  Cheap Thrills Lyrics.4f269b16.mp3",
+    "static/media/Sign-DEAMN.mp3": "/music-react/static/media/Sign-DEAMN.f166f631.mp3",
+    "static/media/SummerTime-K-391.mp3": "/music-react/static/media/SummerTime-K-391.08b62dda.mp3",
+    "static/media/That Girl  Olly Murs.mp3": "/music-react/static/media/That Girl  Olly Murs.f0202202.mp3",
+    "static/media/The Chainsmokers  Coldplay  Something Just Like This.mp3": "/music-react/static/media/The Chainsmokers  Coldplay  Something Just Like This.a3bdd606.mp3",
+    "static/media/The Chainsmokers Closer Lyrics ft Halsey.mp3": "/music-react/static/media/The Chainsmokers Closer Lyrics ft Halsey.25a1d7c4.mp3",
+    "static/media/Unity-TheFatRat.mp3": "/music-react/static/media/Unity-TheFatRat.200ff54c.mp3",
+    "static/media/Vung-La-Me-Bay-Nhu-Quynh.mp3": "/music-react/static/media/Vung-La-Me-Bay-Nhu-Quynh.c3878fee.mp3",
+    "static/media/Want-You-To-Know-Slushii.mp3": "/music-react/static/media/Want-You-To-Know-Slushii.a9865ced.mp3",
+    "static/media/Way Back - Vicetone Cozi Zuehlsdorff.mp3": "/music-react/static/media/Way Back - Vicetone Cozi Zuehlsdorff.1b8ff59d.mp3"
   },
   "entrypoints": [
     "static/js/runtime-main.3741ef4c.js",
-    "static/js/2.370c101c.chunk.js",
-    "static/css/main.4d4ff83f.chunk.css",
-    "static/js/main.dffdf2a3.chunk.js"
+    "static/js/2.05c0d0af.chunk.js",
+    "static/css/main.8eb8a83d.chunk.css",
+    "static/js/main.59afe7d6.chunk.js"
   ]
 }
