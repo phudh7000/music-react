@@ -26,7 +26,21 @@ class SongList extends Component {
       }
       let listHeight = wrapper.clientHeight - header.clientHeight;
       list.style.height = listHeight + 'px';
+
     }
+
+  }
+
+
+  componentDidUpdate(){
+      // scrollIntoView
+    const $ = document.querySelector.bind(document);
+    let itemView = $('.song-item.active');
+    if(itemView)
+    itemView.scrollIntoView({
+        behavior: "smooth",
+        block: "center"
+    })
   }
     
     playing = (song)=>{

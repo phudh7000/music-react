@@ -40,6 +40,7 @@
                 background-color: #fff;
                 display: flex;
                 scroll-behavior: smooth;
+                /* transition: 1s; */
 
     
             }
