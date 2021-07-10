@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/music-react/static/css/main.6e1b52b9.chunk.css",
-    "main.js": "/music-react/static/js/main.45e2bab5.chunk.js",
-    "main.js.map": "/music-react/static/js/main.45e2bab5.chunk.js.map",
+    "main.css": "/music-react/static/css/main.b7b20ec1.chunk.css",
+    "main.js": "/music-react/static/js/main.71ba63f3.chunk.js",
+    "main.js.map": "/music-react/static/js/main.71ba63f3.chunk.js.map",
     "runtime-main.js": "/music-react/static/js/runtime-main.3741ef4c.js",
     "runtime-main.js.map": "/music-react/static/js/runtime-main.3741ef4c.js.map",
     "static/js/2.5c484ac8.chunk.js": "/music-react/static/js/2.5c484ac8.chunk.js",
     "static/js/2.5c484ac8.chunk.js.map": "/music-react/static/js/2.5c484ac8.chunk.js.map",
     "index.html": "/music-react/index.html",
-    "static/css/main.6e1b52b9.chunk.css.map": "/music-react/static/css/main.6e1b52b9.chunk.css.map",
+    "static/css/main.b7b20ec1.chunk.css.map": "/music-react/static/css/main.b7b20ec1.chunk.css.map",
     "static/js/2.5c484ac8.chunk.js.LICENSE.txt": "/music-react/static/js/2.5c484ac8.chunk.js.LICENSE.txt",
     "static/media/All Falls Down.mp3": "/music-react/static/media/All Falls Down.21ddde37.mp3",
     "static/media/Ao-Moi-Ca-Mau-Duong-Hong-Loan.mp3": "/music-react/static/media/Ao-Moi-Ca-Mau-Duong-Hong-Loan.b4b8ac9a.mp3",
@@ -39,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.3741ef4c.js",
     "static/js/2.5c484ac8.chunk.js",
-    "static/css/main.6e1b52b9.chunk.css",
-    "static/js/main.45e2bab5.chunk.js"
+    "static/css/main.b7b20ec1.chunk.css",
+    "static/js/main.71ba63f3.chunk.js"
   ]
 }
