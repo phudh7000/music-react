@@ -34,13 +34,11 @@
             .wrapper {
                 position: relative;
                 max-width: 800px;
-                height: 740px;
                 overflow: hidden;
                 margin: 0 auto;
                 background-color: #fff;
                 display: flex;
                 scroll-behavior: smooth;
-                /* transition: 1s; */
 
     
             }

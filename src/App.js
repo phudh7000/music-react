@@ -16,7 +16,7 @@ class App extends Component {
         if(isMobile||window.innerWidth<=600)return(
             <Provider store={store}>
                 
-                    <div className="wrapper" style={{ width: "400px", overflowX: "scroll" }}>
+                    <div className="wrapper" style={{ width: "400px", overflowX: "scroll", height: "100vh" }}>
                         <div className="slider">
                             <div className="side-left">
                                 <SongPlaying />
@@ -34,7 +34,7 @@ class App extends Component {
         else 
         return(
             <Provider store={store}>
-                    <div className="wrapper">
+                    <div className="wrapper" style ={{height: "752px"}}>
                             <div className="side-left">
                                 <SongPlaying />
                                 <SongList />
