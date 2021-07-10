@@ -34,9 +34,9 @@
             .wrapper {
                 position: relative;
                 max-width: 800px;
-                height: 100vh;
+                height: 740px;
                 overflow: hidden;
-                margin: 0 auto 0 auto;
+                margin: 0 auto;
                 background-color: #fff;
                 display: flex;
                 scroll-behavior: smooth;

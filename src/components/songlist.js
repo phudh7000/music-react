@@ -16,9 +16,7 @@ class SongList extends Component {
     list.onscroll = function (e) {
       // console.log(e.target.scrollTop);
       let scrollTop = e.target.scrollTop;
-      let width = imgWidth - scrollTop * 4;
-        // console.log(e.target)
-    //   let width = 0;
+      let width = imgWidth - scrollTop * 10;
       if (width <= 0) {
         img.style.width = 0;
       } else {

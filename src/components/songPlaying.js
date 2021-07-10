@@ -21,13 +21,20 @@ componentDidUpdate() {
 
     var btnToggle = $('.btn-toggle-play')
     btnToggle.innerHTML = '<i class="fas fa-pause"></i>';
-    audio.onloadeddata = function () {
+    audio.onloadeddata = ()=> {
         let duration = audio.duration;
-        let time = parseInt(duration / 60) + ':' + parseInt(duration % 60);
-        timeDuration.textContent = time;
+        timeDuration.textContent = this.convertTime(duration);
     }
 
     this.run();
+}
+
+convertTime(time){
+    let min = parseInt(time / 60);
+    min = min<10? `0${min}`:`${min}`;
+    let seconds = parseInt(time % 60);
+    seconds = seconds<10? `0${seconds}`:`${seconds}`;
+    return `${min}:${seconds}`;
 }
 
 run() {
@@ -43,8 +50,7 @@ run() {
         let percent = audio.currentTime / audio.duration * 100;
         range.style.width = percent + '%';
         let currentTime = audio.currentTime;
-        let time = parseInt(currentTime / 60) + ':' + parseInt(currentTime % 60);
-        timePresent.textContent = time;
+        timePresent.textContent = this.convertTime(currentTime);
 
 
         if (percent === 100 && (btnRedo.classList.contains('active') || btnRandom.classList.contains('active'))) {
